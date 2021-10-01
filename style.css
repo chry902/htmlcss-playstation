@@ -1,3 +1,9 @@
 /****************
 navbar
 *****************/
+.logo_play{
+    height: 50px;
+}
+.logo_play>img{
+    width: 100%;
+}
