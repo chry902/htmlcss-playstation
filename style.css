@@ -22,7 +22,7 @@ navbar
 }
 
 /******* section 1******/
-.returnal_img{
+.jumbo_img{
     background-image: url("./img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,9 +31,9 @@ navbar
     height: 600px;
     width: 100%;
 }
-.s1_text_contain{
+.s1_text_contain, .s2_text_contain{
     color: white;
-    width: 386px;
+    width: 400px;
 }
 .s1_text_contain>img{
 width: 200px;
@@ -83,3 +83,36 @@ width: 200px;
     .s3_contain_img>img{
         width: 100%;
     }
+    
+    .s3_card{
+        width: 170px;
+        filter: opacity(0.75);
+        
+    }
+    .s3_card:hover{
+        filter: none;
+        border-bottom: 2px solid rgba(30, 131, 212, 1);
+    }
+    .s3_card>img{
+        width: 100%;
+    }
+
+
+/**************
+    section4
+***************/
+.s4_jumbo_img{
+    background-image:url("./img/it-takes-two-hero-banner-desktop.jpg")
+}
+.section4{
+    background-color: rgba(31, 31, 31, 1);
+}
+.s4_card{
+    width: 250px;
+    margin-bottom: 3rem;
+    
+}
+.s4_card>img{
+    width: 100%;
+    border-radius: 15%;
+}
