@@ -1,9 +1,12 @@
 /****************
 navbar
 *****************/
-.logo_play{
-    height: 50px;
+
+.sony_text>img{
+    height: 14px;
 }
-.logo_play>img{
-    width: 100%;
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
 }
