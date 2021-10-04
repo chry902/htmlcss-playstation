@@ -10,3 +10,21 @@ navbar
     color: rgb(0, 0, 0);
     padding: 0.5rem 1rem;
 }
+
+/******* section 1******/
+.returnal_img{
+    background-image: url("./img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    height: 600px;
+    width: 100%;
+}
+.s1_text_contain{
+    color: white;
+    width: 386px;
+}
+.s1_text_contain>img{
+width: 200px;
+}
