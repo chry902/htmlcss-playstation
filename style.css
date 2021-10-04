@@ -43,7 +43,7 @@ width: 200px;
     margin: 3rem 0.25rem;
     
 }
-.card {
+.s1_card {
     width: 100%;
     border-radius: 15px;
     
@@ -115,4 +115,13 @@ width: 200px;
 .s4_card>img{
     width: 100%;
     border-radius: 15%;
+}
+/**************
+    section5
+***************/
+.s5_text_contain{
+   margin-top: 5rem; 
+}
+.s5_card{
+    width: 400px;
 }
