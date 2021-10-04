@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /****************
 navbar
 *****************/
@@ -28,3 +38,48 @@ navbar
 .s1_text_contain>img{
 width: 200px;
 }
+/********* card*******/
+.card_contain{
+    margin: 3rem 0.25rem;
+    
+}
+.card {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.card_contain:hover{
+    border: 3px solid rgba(49, 141, 215, 1);
+    border-radius: 22px;
+    padding: 0.25rem;
+    
+}
+/**************
+    section2
+***************/
+    .section_2{
+
+    }
+    .text-center>.s2_paragraph{
+        color: rgba(20, 125, 210, 1);
+        
+    }
+    .text-center>.fs-4{
+        color: rgba(141, 141, 141, 1);
+    }
+    .text-center>h2{
+        font-size: 48px;
+    
+    }
+    /**************
+    section3
+***************/
+.s3_text_contain>h2{
+    font-size: 48px;
+}    
+.s3_text_contain>p{
+        color: rgba(141, 141, 141, 1);
+    }
+    .s3_contain_img>img{
+        width: 100%;
+    }
