@@ -7,6 +7,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.jumbo_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    height: 600px;
+    width: 100vw;
+}
 
 /****************
 navbar
@@ -21,15 +29,15 @@ navbar
     padding: 0.5rem 1rem;
 }
 
+
+    
+ 
 /******* section 1******/
-.jumbo_img{
+.s1_jumbo_img{
     background-image: url("./img/jumbo-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-    height: 600px;
-    width: 100%;
+}
+.s1_contain{
+    padding-top: 14rem;
 }
 .s1_text_contain, .s2_text_contain{
     color: white;
@@ -57,9 +65,7 @@ width: 200px;
 /**************
     section2
 ***************/
-    .section_2{
-
-    }
+    
     .text-center>.s2_paragraph{
         color: rgba(20, 125, 210, 1);
         
@@ -71,7 +77,7 @@ width: 200px;
         font-size: 48px;
     
     }
-    /**************
+/**************
     section3
 ***************/
 .s3_text_contain>h2{
@@ -94,49 +100,106 @@ width: 200px;
         border-bottom: 2px solid rgba(30, 131, 212, 1);
     }
     .s3_card>img{
-        width: 100%;
+        width:100%;
     }
 
 
 /**************
     section4
 ***************/
-.s4_jumbo_img{
-    background-image:url("./img/it-takes-two-hero-banner-desktop.jpg")
-}
-.section4{
-    background-color: rgba(31, 31, 31, 1);
-}
-.s4_card{
-    width: 250px;
-    margin-bottom: 3rem;
-    
-}
-.s4_card>img{
-    width: 100%;
-    border-radius: 15%;
-}
+    .s4_jumbo_img{
+        background-image:url("./img/it-takes-two-hero-banner-desktop.jpg");
+        
+
+    }
+    .s4_card_contain{
+        background-color: rgba(31, 31, 31, 1);
+    }
+    .s4_logo_img{
+        width: 200px;
+    }
+    .s4_card{
+        
+        margin-bottom: 3rem;
+        
+    }
+    .s4_card>img{
+        width: 100%;
+        border-radius: 15%;
+    }
 /**************
     section5
 ***************/
-.s5_text_contain{
-   margin-top: 5rem; 
-}
-.s5_card{
-    width: 400px;
-}
+    .s5_text_contain{
+    margin-top: 5rem; 
+    }
+    .s5_card{
+        width: 400px;
+    }
+    /**************
+        section6
+    ***************/
+    .section6{
+        background-color: rgba(190, 188, 187, 1);
+        
+    }
+    .s6_text_contain>img{
+        width: 300px;
+    }
+    .s6_buttom_color{
+        background-color: rgba(217, 218, 220, 1);
+        color: rgba(60, 110, 229, 1);
+        
+    }
 /**************
-    section6
+    section7
 ***************/
-.section6{
-    background-color: rgba(190, 188, 187, 1);
-    h
+    .s7_card{
+        width: calc (100% /3);
+    }
+    .s7_card>img{
+        width: 90%;
+    }
+
+/**************
+    section8
+***************/
+    .section8{
+        background-color: rgba(22, 28, 59, 1);
+    }
+    .s8_text_contain{
+        
+    }
+
+    .s8_text_contain>img{
+        width: 300px;
+    }
+    .s8_buttom_color{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        
+    }
+/**************
+    section9
+***************/
+.s9_text_contin>h4{
+    padding: 6rem 0;
 }
-.s6_text_contain>img{
-    width: 300px;
+.s9_card{
+    width: 150px;
+    margin-bottom: 6rem;
 }
-.s6_buttom_color{
-    background-color: rgba(217, 218, 220, 1);
-    color: rgba(60, 110, 229, 1);
-    
+.s9_card>img{
+    width: 100%;
 }
+/********************
+        FOOTER
+ *******************/
+ footer{
+     background-color: rgba(0, 67, 156, 1);
+     color: white;
+ }       
+ div>a{
+     text-decoration: none;
+     color: white;
+ }
