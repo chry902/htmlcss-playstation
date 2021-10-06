@@ -29,8 +29,21 @@ navbar
     padding: 0.5rem 1rem;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: blue;
+}
 
-    
+
+.navbar-nav .nav-link:hover .bottom_nav .effect{
+    display: block;
+}
+
+.bottom_nav .effect{
+    display: none;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
  
 /******* section 1******/
 .s1_jumbo_img{
@@ -167,9 +180,7 @@ width: 200px;
     .section8{
         background-color: rgba(22, 28, 59, 1);
     }
-    .s8_text_contain{
-        
-    }
+    
 
     .s8_text_contain>img{
         width: 300px;
